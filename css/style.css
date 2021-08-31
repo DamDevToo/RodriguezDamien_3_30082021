@@ -24,8 +24,13 @@
   margin-right: 40px;
 }
 
+.explo {
+  text-align: center;
+}
+
 html, body {
   margin: 0;
+  font-family: "Roboto";
 }
 
 /*# sourceMappingURL=style.css.map */
