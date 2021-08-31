@@ -27,6 +27,21 @@
 .explo {
   text-align: center;
 }
+.explo .explo__title {
+  font-size: 1em;
+}
+.explo .explo__subtitle {
+  font-weight: 400;
+}
+.explo .explo__btn {
+  background-color: grey;
+  color: white;
+  border: 0;
+  border-radius: 100px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
 
 html, body {
   margin: 0;
