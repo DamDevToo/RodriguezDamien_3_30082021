@@ -53,6 +53,7 @@
         text-align: center;
         cursor: pointer;
         font-size: 20px;
+        padding: 10px;
     }
 }
 
@@ -86,11 +87,12 @@
     grid-template-rows: 2fr 2fr;
     grid-auto-rows: 300px;
     grid-gap: 10px;
+    justify-items: center;
 
     }
     .resto__card{
-        width: 250px;
-        height: 270px;
+        width: 500px;
+        height: 300px;
         border: 1px solid;
         border-radius: 15px;
         display: flex;
@@ -103,6 +105,8 @@
             height: 200px;
             border-radius: 15px 15px 0 0;
             object-fit: cover;
+            position: relative;
+            top: 0;
         }
 
         .card__footer{
