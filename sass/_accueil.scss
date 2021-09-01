@@ -70,3 +70,20 @@
 
 }
 
+.resto__card{
+    text-decoration: none;
+    color: black;
+    width: 250px;
+    height: 200px;
+
+    img{
+        width: 30%;
+        height: 30%;
+    }
+
+    .card__footer{
+        width: 100%;
+        display: inline-block;
+    }
+}
+

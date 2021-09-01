@@ -59,6 +59,21 @@
   text-align: center;
 }
 
+.resto__card {
+  text-decoration: none;
+  color: black;
+  width: 250px;
+  height: 200px;
+}
+.resto__card img {
+  width: 30%;
+  height: 30%;
+}
+.resto__card .card__footer {
+  width: 100%;
+  display: inline-block;
+}
+
 html, body {
   margin: 0;
   font-family: "Roboto";
