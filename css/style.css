@@ -57,21 +57,41 @@
   list-style-type: none;
   margin-bottom: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
-.resto__card {
+.resto {
+  background-color: #f6f6f6;
+  height: 600px;
+  width: 100%;
+}
+.resto .resto__card {
+  width: 250px;
+  height: 270px;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 15px;
+}
+.resto .resto__card img {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+.resto .resto__card .card__footer {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
   text-decoration: none;
   color: black;
-  width: 250px;
-  height: 200px;
+  text-decoration: none;
 }
-.resto__card img {
-  width: 30%;
-  height: 30%;
+.resto .resto__card .card__footer .resto__card--title {
+  padding-left: 20px;
+  font-size: 16px;
 }
-.resto__card .card__footer {
-  width: 100%;
-  display: inline-block;
+.resto .resto__card .card__footer .resto__card--like {
+  padding: 20px 10px 0 0;
 }
 
 html, body {
