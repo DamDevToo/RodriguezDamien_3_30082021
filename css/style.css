@@ -65,12 +65,24 @@
   height: 600px;
   width: 100%;
 }
+.resto .container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  grid-auto-rows: 300px;
+  grid-gap: 10px;
+}
 .resto .resto__card {
   width: 250px;
   height: 270px;
-  align-items: center;
   border: 1px solid;
   border-radius: 15px;
+}
+.resto .resto__card .resto__card1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
 .resto .resto__card img {
   width: 100%;
