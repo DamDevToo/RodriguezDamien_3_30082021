@@ -9,7 +9,7 @@
 
 .loc {
   display: flex;
-  background-color: #f6f6f6;
+  background-color: #ece5e5;
   width: 100%;
   justify-content: center;
   vertical-align: middle;
@@ -25,22 +25,38 @@
 }
 
 .explo {
+  padding-top: 50px;
   text-align: center;
+  background-color: #f6f6f6;
+  height: 250px;
 }
 .explo .explo__title {
   font-size: 1em;
 }
+.explo .explo__title h1 {
+  margin-top: 0;
+}
 .explo .explo__subtitle {
   font-weight: 400;
+  margin-bottom: 30px;
 }
 .explo .explo__btn {
   background-color: grey;
   color: white;
   border: 0;
   border-radius: 100px;
-  width: 100px;
   text-align: center;
   cursor: pointer;
+  font-size: 20px;
+}
+
+.fun .h1 {
+  text-align: left;
+}
+.fun li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 html, body {
