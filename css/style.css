@@ -63,7 +63,7 @@
 
 .resto {
   background-color: #f6f6f6;
-  height: 600px;
+  height: 900px;
   width: 100%;
 }
 .resto .resto__title {
@@ -84,6 +84,9 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+}
+.resto .resto__card a {
+  text-decoration: none;
 }
 .resto .resto__card img {
   width: 100%;
