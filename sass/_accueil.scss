@@ -1,7 +1,8 @@
 .header{
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
     padding: 16px;
-
+    position: relative;
+    
     .header__title{
     text-align: center;
     font-family: "Shrikhand";
@@ -41,7 +42,7 @@ $color-tertiary: #99E2D0;
     padding-top: 50px;
     text-align: center;
     background-color: #f6f6f6;
-    height: 250px;
+    height: 300px;
 
     .explo__title{
         font-size: 1em;
@@ -53,7 +54,7 @@ $color-tertiary: #99E2D0;
 
     .explo__subtitle{
         font-size: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 
     .explo__btn{
