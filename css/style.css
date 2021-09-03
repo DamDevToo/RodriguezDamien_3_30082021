@@ -14,7 +14,7 @@
 
 .loc {
   display: flex;
-  background-color: #fafafa;
+  background-color: lightgrey;
   width: 100%;
   justify-content: center;
   vertical-align: middle;
