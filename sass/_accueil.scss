@@ -1,6 +1,6 @@
 .header{
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
-    padding: 16px;
+    padding: 16px 0 16px 0;
     position: relative;
 
     .header__title{
@@ -20,7 +20,7 @@
     width: 100%;
     justify-content: center;
     vertical-align: middle;
-    padding: 24px;
+    padding: 24px 0 24px 0;
     
     .loc__icon{
         padding: 16px 16px 16px 0;
@@ -85,17 +85,18 @@ $color-tertiary: #99E2D0;
     ol{
         display:flex;
         justify-content: space-around;
+        padding: 0;
     }
     
     li{
         list-style-type: none;
-        margin-bottom: 20px;
         text-align: center;
         font-weight: bold;
-        padding: 24px;
+        padding: 16px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
-        margin: 16px 0 16px 10px;
+        margin: 16px 0 16px 0px;
+        width: 20%;
         
         ::before{
             margin-right: 20px;

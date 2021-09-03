@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
 .header {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
-  padding: 16px;
+  padding: 16px 0 16px 0;
   position: relative;
 }
 .header .header__title {
@@ -18,7 +18,7 @@
   width: 100%;
   justify-content: center;
   vertical-align: middle;
-  padding: 24px;
+  padding: 24px 0 24px 0;
 }
 .loc .loc__icon {
   padding: 16px 16px 16px 0;
@@ -71,16 +71,17 @@
 .fun ol {
   display: flex;
   justify-content: space-around;
+  padding: 0;
 }
 .fun li {
   list-style-type: none;
-  margin-bottom: 20px;
   text-align: center;
   font-weight: bold;
-  padding: 24px;
+  padding: 16px;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
-  margin: 16px 0 16px 10px;
+  margin: 16px 0 16px 0px;
+  width: 20%;
 }
 .fun li ::before {
   margin-right: 20px;
@@ -144,6 +145,7 @@
 
 html, body {
   margin: 0;
+  padding: 0;
   font-family: "Roboto";
 }
 
