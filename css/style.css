@@ -56,6 +56,7 @@
   cursor: pointer;
   font-size: 20px;
   padding: 20px;
+  background: linear-gradient(#FF79DA, #9356DC);
 }
 .explo .explo__btn :hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);

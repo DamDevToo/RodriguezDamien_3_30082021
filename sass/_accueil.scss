@@ -67,6 +67,7 @@ $color-tertiary: #99E2D0;
         cursor: pointer;
         font-size: 20px;
         padding: 20px;
+        background: linear-gradient($color-secondary, $color-primary);
 
        :hover{
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.50);
