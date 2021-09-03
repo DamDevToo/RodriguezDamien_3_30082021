@@ -103,15 +103,19 @@
   justify-items: center;
 }
 .resto .resto__card {
-  width: 300px;
-  height: 250px;
+  width: 90%;
+  height: 270px;
   border: 1px solid;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
 }
+.resto .resto__card h5 {
+  font-size: 16px;
+}
 .resto .resto__card a {
   text-decoration: none;
+  font-size: 16px;
 }
 .resto .resto__card img {
   width: 100%;
