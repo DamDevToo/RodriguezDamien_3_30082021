@@ -16,7 +16,7 @@
 
 .loc{
     display: flex;
-    background-color: lightgrey;
+    background-color:#ededed;
     width: 100%;
     justify-content: center;
     vertical-align: middle;
@@ -82,9 +82,11 @@ $color-tertiary: #99E2D0;
         text-align:left;
     }
     
+    
     ol{
         display:flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
         padding: 0;
     }
     
@@ -96,7 +98,22 @@ $color-tertiary: #99E2D0;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
         margin: 16px 0 16px 0px;
-        width: 20%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+
+        div{
+            color: white;
+            background: #9356DC;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 10px 0 -30px;
+        }
+        
         
         ::before{
             margin-right: 20px;
@@ -105,6 +122,11 @@ $color-tertiary: #99E2D0;
     }
 
 }
+
+li:hover{
+    background: #f7f0ff;
+}
+
 
 .resto{
     background-color: #f6f6f6;
@@ -116,12 +138,11 @@ $color-tertiary: #99E2D0;
     }
 
     .container{
-        display:grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr 2fr;
-    grid-auto-rows: 300px;
-    grid-gap: 10px;
-    justify-items: center;
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
 
     }
     .resto__card{
