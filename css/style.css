@@ -65,8 +65,8 @@
 .fun {
   width: 100%;
 }
-.fun .h1 {
-  text-align: left;
+.fun h1 {
+  padding: 10px 0 10px 20px;
 }
 .fun ol {
   display: flex;
@@ -82,7 +82,7 @@
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   margin: 16px 0 16px 0px;
-  width: 80%;
+  width: 75%;
   display: flex;
   align-items: center;
 }
@@ -90,12 +90,13 @@
   color: white;
   background: #9356DC;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 10px 0 -30px;
+  font-size: small;
 }
 .fun li ::before {
   margin-right: 20px;
@@ -112,7 +113,7 @@ li:hover {
   width: 100%;
 }
 .resto .resto__title {
-  padding: 10px 0 10px 0;
+  padding: 10px 0 10px 20px;
 }
 .resto .container {
   display: flex;
@@ -123,14 +124,16 @@ li:hover {
 }
 .resto .resto__card {
   width: 90%;
-  height: 270px;
-  border: 1px solid;
+  height: 220px;
+  border: 0px solid;
   border-radius: 15px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
 }
 .resto .resto__card h5 {
   font-size: 16px;
+  margin: 5px 0 0 0;
 }
 .resto .resto__card a {
   text-decoration: none;
