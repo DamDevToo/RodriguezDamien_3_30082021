@@ -147,6 +147,14 @@ li:hover {
   position: relative;
   top: 0;
 }
+.resto .resto__card .resto__card--badge {
+  color: black;
+  background-color: #99E2D0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  border-radius: 2px;
+}
 .resto .resto__card .card__footer {
   width: 100%;
   display: inline-flex;
