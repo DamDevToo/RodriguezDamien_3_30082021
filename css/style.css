@@ -121,7 +121,7 @@ li:hover {
 
 .resto {
   background-color: #f6f6f6;
-  height: 900px;
+  height: 1100px;
   width: 100%;
 }
 .resto .resto__title {
@@ -184,6 +184,29 @@ li:hover {
 }
 .resto .resto__card .card__footer .resto__card--like {
   padding: 20px 10px 0 0;
+}
+
+footer {
+  background-color: black;
+  height: 220px;
+  color: white;
+}
+footer h6 {
+  font-size: 17px;
+  font-family: "Shrikhand";
+  margin: 0 20px;
+  padding-top: 30px;
+  font-weight: normal;
+}
+footer ul {
+  padding-left: 20px;
+}
+footer li {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+footer li i {
+  margin-right: 10px;
 }
 
 html, body {
