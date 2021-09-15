@@ -150,6 +150,11 @@ li:hover{
     height: 1100px;
     width: 100%;
     
+    @media screen and (min-width: 560px) {
+
+        height: 600px;
+        
+    }
     .resto__title{
         padding: 10px 0 10px 20px;
     }
@@ -161,6 +166,13 @@ li:hover{
         flex-direction: column;
         row-gap: 20px;
 
+        @media screen and (min-width: 560px) {
+
+            flex-direction: row;
+            column-gap: 20px;
+            flex-wrap: wrap;
+            
+        }
     }
 
     
@@ -175,7 +187,12 @@ li:hover{
         flex-direction: column;
         position: relative;
 
-        
+            @media screen and (min-width: 560px) {
+
+                width: 40%;
+                
+                
+            }
 
         h5{
             font-size: 16px;
