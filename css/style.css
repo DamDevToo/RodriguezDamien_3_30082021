@@ -199,7 +199,8 @@ li:hover {
   font-size: 16px;
 }
 .resto .resto__card .card__footer .resto__card--like {
-  padding: 20px 10px 0 0;
+  padding: 5px 20px 0 0;
+  font-size: 25px;
 }
 
 footer {
