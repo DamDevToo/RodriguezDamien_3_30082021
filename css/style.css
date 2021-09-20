@@ -203,10 +203,14 @@ li:hover {
   padding: 5px 20px 0 0;
   font-size: 25px;
 }
-.resto .resto__card .card__footer .resto__card--like i:hover {
-  background: linear-gradient(#FF79DA, #9356DC);
-  transition-duration: 0.5s;
-  color: transparent;
+.resto .resto__card .card__footer .resto__card--like .fa-heart::before {
+  transition-duration: ease-in 0.5s;
+}
+.resto .resto__card .card__footer .resto__card--like .fa-heart:hover::before {
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
 }
 
 footer {

@@ -243,12 +243,17 @@ li:hover{
             padding: 5px 20px 0 0;
             font-size: 25px;
 
-                i{
-                    
-                    &:hover{
-                        background: linear-gradient($color-secondary, $color-primary);
-                        transition-duration: 0.5s;
-                        color: transparent;
+                .fa-heart::before{
+                    transition-duration: ease-in 0.5s;
+                }
+
+                .fa-heart:hover{
+
+                    &::before{
+                        -webkit-text-fill-color: transparent;
+                        font-weight: bold;
+                        background: linear-gradient($color-primary,$color-secondary);
+                        -webkit-background-clip: text;
                     }
                 }
             }
