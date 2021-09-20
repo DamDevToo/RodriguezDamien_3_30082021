@@ -203,9 +203,14 @@ li:hover {
   padding: 5px 20px 0 0;
   font-size: 25px;
 }
+.resto .resto__card .card__footer .resto__card--like i:hover {
+  background: linear-gradient(#FF79DA, #9356DC);
+  transition-duration: 0.5s;
+  color: transparent;
+}
 
 footer {
-  background-color: black;
+  background-color: #333333;
   height: 220px;
   color: white;
 }

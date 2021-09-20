@@ -242,13 +242,22 @@ li:hover{
         .resto__card--like{
             padding: 5px 20px 0 0;
             font-size: 25px;
+
+                i{
+                    
+                    &:hover{
+                        background: linear-gradient($color-secondary, $color-primary);
+                        transition-duration: 0.5s;
+                        color: transparent;
+                    }
+                }
             }
         }
     }
 }
 
 footer{
-    background-color: black;
+    background-color: #333333;
     height: 220px;
     color: white;
 
