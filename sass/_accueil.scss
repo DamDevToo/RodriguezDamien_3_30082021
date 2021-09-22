@@ -1,3 +1,36 @@
+.loader-page{
+    height: 200px;
+    width: 200px;
+    border: 20px solid transparent;
+    border-top: 20px solid #9356DC;
+    border-bottom: 20px solid #FF79DA;
+    border-radius: 50%;
+    
+    
+    position:absolute;
+    margin: auto;
+    top: 0; right: 0; left: 0; bottom: 0;
+    -webkit-animation: spin 3s linear ;
+    -o-animation: spin 3s linear ;
+    animation: spin 3s linear ;
+    
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+            opacity: 1;
+        }
+        100%{
+            transform: rotate(360deg);
+            opacity: 0;
+        }
+
+    }
+
+    
+}
+
+
 .header{
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
     padding: 16px 0 16px 0;
@@ -254,6 +287,7 @@ li:hover{
                         font-weight: bold;
                         background: linear-gradient($color-primary,$color-secondary);
                         -webkit-background-clip: text;
+                        background-clip: text;
                     }
                 }
             }
@@ -276,17 +310,17 @@ footer{
 
     ul{
         padding-left: 20px;
+        
     }
 
     li{
         list-style: none;
         margin: 0 0 10px 0;
+        cursor: pointer;
+        text-transform: none;
 
         i{
             margin-right: 10px;
         }
     }
 }
-
-
-
