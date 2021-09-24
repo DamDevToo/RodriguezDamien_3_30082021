@@ -124,6 +124,9 @@
   display: flex;
   align-items: center;
 }
+.fun li:hover {
+  background: #f7f0ff;
+}
 @media screen and (min-width: 560px) {
   .fun li {
     width: 39%;
@@ -149,10 +152,6 @@
 .fun li ::before {
   margin-right: 20px;
   color: grey;
-}
-
-li:hover {
-  background: #f7f0ff;
 }
 
 .resto {

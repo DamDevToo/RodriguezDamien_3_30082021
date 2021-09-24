@@ -151,6 +151,10 @@ $color-tertiary: #99E2D0;
         display: flex;
         align-items: center;
 
+        &:hover{
+            background: #f7f0ff;
+        }
+        
         @media screen and (min-width:560px) {
     
             width: 39%;
@@ -183,12 +187,9 @@ $color-tertiary: #99E2D0;
             color: grey;
         }
     }
-
 }
 
-li:hover{
-    background: #f7f0ff;
-}
+
 
 
 
