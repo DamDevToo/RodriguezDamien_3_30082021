@@ -297,7 +297,7 @@ $color-tertiary: #99E2D0;
             font-size: 25px;
 
                 .fa-heart::before{
-                    transition-duration: ease-in 0.5s;
+                    transition: ease-in 0.5s;
                 }
 
                 .fa-heart:hover{

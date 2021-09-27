@@ -240,7 +240,7 @@
   font-size: 25px;
 }
 .resto .resto__card .card__footer .resto__card--like .fa-heart::before {
-  transition-duration: ease-in 0.5s;
+  transition: ease-in 0.5s;
 }
 .resto .resto__card .card__footer .resto__card--like .fa-heart:hover::before {
   -webkit-text-fill-color: transparent;
