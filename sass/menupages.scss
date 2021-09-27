@@ -1,7 +1,13 @@
 .fa-arrow-left::before{
     font-size: 20px;
     color: black;
-    padding-left: 10px;
+
+}
+
+.header--menupages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header__title--menupages{
@@ -10,7 +16,6 @@
         
         
             h1{
-            margin: 0;
-            width: 50%;
+                margin: 0 70px 0 0;
             }
         }
