@@ -281,6 +281,15 @@ footer li i {
   padding-left: 10px;
 }
 
+.header__title--menupages {
+  text-align: center;
+  font-family: "Shrikhand";
+}
+.header__title--menupages h1 {
+  margin: 0;
+  width: 50%;
+}
+
 html, body {
   margin: 0;
   padding: 0;
