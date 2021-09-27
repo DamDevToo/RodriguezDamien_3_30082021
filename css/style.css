@@ -275,6 +275,12 @@ footer li i {
   margin-right: 10px;
 }
 
+.fa-arrow-left::before {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
 html, body {
   margin: 0;
   padding: 0;
