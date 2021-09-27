@@ -27,7 +27,7 @@
   position: absolute;
   -webkit-animation: 1.5s spin ease-in-out 3;
   -o-animation: 1.5s spin ease-in-out 3;
-  animation: 1.5scspin ease-in-out 3;
+  animation: 1.5s spin ease-in-out 3;
 }
 @keyframes spin {
   100% {
