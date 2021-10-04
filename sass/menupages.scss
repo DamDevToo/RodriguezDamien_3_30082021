@@ -31,6 +31,9 @@
 }
 }
 
+.main__menu{
+    height: 1050px;
+}
 .menu{
     margin-top: -60px;
     border-radius: 45px 45px 0 0;
@@ -110,4 +113,25 @@
     
 }
 
-    
+.command{
+    margin: 25px;
+}
+
+.command__btn{
+    background-color: #686868;
+    color: white;
+    border: 0;
+    border-radius: 100px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 0 10px 0;
+    background: linear-gradient($color-secondary, $color-primary);
+    margin: 0 50px 0 50px;
+
+   &:hover{
+    opacity: 0.8;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
+    color: black;
+   }
+}
