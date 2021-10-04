@@ -19,3 +19,55 @@
                 margin: 0 70px 0 0;
             }
         }
+
+.back--img{
+    height:300px;
+    width: 100%;
+    
+    img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+}
+
+.menu{
+    margin-top: -60px;
+    border-radius: 45px 45px 0 0;
+    background-color:#ededed;
+    width: 100%;
+    position: absolute;
+}
+.menu--title{
+    margin-top: 0;
+    text-align: center;
+    font-family: "Shrikhand";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .resto__card--like{
+        font-size: 25px;
+        padding-top:20px;
+    }
+}
+
+.menu--list{
+
+    ul{
+        padding-left: 25px;
+        list-style: none;
+        text-decoration: none;
+        
+    }
+    h2{
+        text-transform: uppercase;
+        font-weight: lighter;
+        font-size: 15px;
+        padding-left: 20px;
+    }   
+}
+
+    h3{
+        font-size: 15px;
+    }

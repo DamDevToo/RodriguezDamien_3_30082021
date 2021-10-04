@@ -293,28 +293,29 @@ $color-tertiary: #99E2D0;
             padding-left: 20px;
             font-size: 16px;
         }
-        .resto__card--like{
-            padding: 5px 20px 0 0;
-            font-size: 25px;
-
-                .fa-heart::before{
-                    transition: ease-in 0.5s;
-                }
-
-                .fa-heart:hover{
-
-                    &::before{
-                        -webkit-text-fill-color: transparent;
-                        font-weight: bold;
-                        background: linear-gradient($color-primary,$color-secondary);
-                        -webkit-background-clip: text;
-                        background-clip: text;
-                    }
-                }
-            }
         }
     }
 }
+
+.resto__card--like{
+    padding: 5px 20px 0 0;
+    font-size: 25px;
+
+        .fa-heart::before{
+            transition: linear 0.1s;
+        }
+
+        .fa-heart:hover{
+
+            &::before{
+                -webkit-text-fill-color: transparent;
+                font-weight: bold;
+                background: linear-gradient($color-primary,$color-secondary);
+                -webkit-background-clip: text;
+                background-clip: text;
+            }
+        }
+    }
 
 footer{
     background-color: #333333;
