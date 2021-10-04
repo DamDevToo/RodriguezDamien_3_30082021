@@ -327,10 +327,9 @@ footer li i {
   padding-top: 20px;
 }
 
-.menu--list ul {
-  padding-left: 25px;
-  list-style: none;
-  text-decoration: none;
+.menu--list {
+  width: 100%;
+  height: auto;
 }
 .menu--list h2 {
   text-transform: uppercase;
@@ -338,9 +337,40 @@ footer li i {
   font-size: 15px;
   padding-left: 20px;
 }
-
-h3 {
+.menu--list ul {
+  padding-left: 25px;
+  margin-right: 25px;
+  list-style: none;
+  text-decoration: none;
+}
+.menu--list ul li {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px #e4e4e4;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.menu--list ul li h3 {
   font-size: 15px;
+  padding: 0 0 0 10px;
+  margin-bottom: 0;
+}
+.menu--list ul li p {
+  margin: 5px 0 10px 10px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+}
+.menu--list ul li div span {
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 html, body {
