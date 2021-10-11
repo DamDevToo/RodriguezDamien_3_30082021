@@ -311,6 +311,7 @@ footer li i {
 .menu--title img {
   max-height: 300px;
   max-width: 100%;
+  min-width: 100%;
   object-fit: cover;
 }
 .menu--title h2 {
@@ -340,13 +341,23 @@ footer li i {
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 15px;
-  padding-left: 30px;
+  padding-left: 25px;
+  margin-bottom: 0;
+}
+.menu--list hr {
+  display: inline-block;
+  width: 38px;
+  background: #99E2D0;
+  padding: 2px 0;
+  border: none;
+  margin-left: 25px;
 }
 .menu--list ul {
   padding-left: 25px;
   margin-right: 25px;
   list-style: none;
   text-decoration: none;
+  margin-top: 0;
 }
 .menu--list ul li {
   background-color: #f2f2f2;
