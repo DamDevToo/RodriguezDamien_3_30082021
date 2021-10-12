@@ -332,6 +332,16 @@ footer li i {
 .menu--title .like ::before {
   padding-right: 10px;
 }
+.menu--title .like .fa-heart::before {
+  transition: linear 0.1s;
+}
+.menu--title .like .fa-heart:hover::before {
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
 .menu--list {
   width: 100%;

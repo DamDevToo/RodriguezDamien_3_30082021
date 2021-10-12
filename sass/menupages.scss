@@ -60,6 +60,21 @@
         ::before{
             padding-right: 10px;
         }
+
+        .fa-heart::before{
+            transition: linear 0.1s;
+        }
+
+        .fa-heart:hover{
+
+            &::before{
+                -webkit-text-fill-color: transparent;
+                font-weight: bold;
+                background: linear-gradient($color-primary,$color-secondary);
+                -webkit-background-clip: text;
+                background-clip: text;
+            }
+        }
     }
 }
 
