@@ -356,6 +356,12 @@ footer li i {
   width: 100%;
   height: auto;
 }
+@media screen and (min-width: 732px) {
+  .menu--list {
+    display: flex;
+    justify-content: center;
+  }
+}
 .menu--list h2 {
   text-transform: uppercase;
   font-weight: lighter;
@@ -373,6 +379,21 @@ footer li i {
   padding: 2px 0;
   border: none;
   margin-left: 25px;
+}
+@media screen and (min-width: 1024px) {
+  .menu--list #entrees {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .menu--list #plats {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .menu--list #desserts {
+    width: 30%;
+  }
 }
 .menu--list ul {
   padding-left: 25px;
@@ -392,6 +413,16 @@ footer li i {
   justify-content: space-between;
   margin-bottom: 15px;
 }
+@media screen and (min-width: 732px) {
+  .menu--list ul li {
+    height: 94px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .menu--list ul li {
+    height: 70px;
+  }
+}
 .menu--list ul li h3 {
   font-size: 15px;
   padding: 0 0 0 10px;
@@ -404,6 +435,13 @@ footer li i {
 }
 .menu--list ul li p::first-letter {
   text-transform: capitalize;
+}
+@media screen and (min-width: 732px) {
+  .menu--list ul li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .menu--list ul li div span {
   font-weight: bold;

@@ -84,6 +84,14 @@
 
     width: 100%;
     height: auto;
+
+    @media screen and (min-width:732px) {
+    
+        display: flex;
+        justify-content: center;
+        
+        
+    }
     
     h2{
         text-transform: uppercase;
@@ -106,6 +114,41 @@
         margin-left: 25px;
     }
 
+
+    #entrees{
+
+        @media screen and (min-width:1024px) {
+    
+            width: 30%;
+             
+             
+         }
+        }
+
+
+    #plats{
+
+        @media screen and (min-width:1024px) {
+        
+            width: 30%;
+                 
+                 
+         }
+
+    }
+    
+
+    #desserts{
+
+        @media screen and (min-width:1024px) {
+    
+            width: 30%;
+             
+             
+         }
+        }
+
+        
     ul{
         padding-left: 25px;
         margin-right: 25px;
@@ -125,6 +168,20 @@
             justify-content: space-between;
             margin-bottom: 15px;
 
+            @media screen and (min-width:732px) {
+    
+               height: 94px;
+                
+                
+            }
+            
+            @media screen and (min-width:1024px) {
+    
+                height: 70px;
+                 
+                 
+             }
+
             h3{
                 font-size: 15px;
                 padding: 0 0 0 10px;
@@ -142,6 +199,15 @@
             }
 
             div{
+
+                @media screen and (min-width:732px) {
+    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    
+                }
+
                 span{
                     font-weight: bold;
                     font-size: 15px;
