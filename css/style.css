@@ -363,6 +363,9 @@ footer li i {
   padding-left: 25px;
   margin-bottom: 0;
 }
+.menu--list h2 p {
+  margin-bottom: 0;
+}
 .menu--list hr {
   display: inline-block;
   width: 38px;
