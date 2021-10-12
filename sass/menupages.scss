@@ -1,12 +1,13 @@
 .fa-arrow-left::before{
     font-size: 20px;
     color: black;
+    margin-right: 45px;
 
 }
 
 .header--menupages {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -16,7 +17,9 @@
         
         
             h1{
-                margin: 0 70px 0 0;
+                margin: 0 100px 0 0;
+                font-size: 1.7em;
+            
             }
         }
 
@@ -47,9 +50,9 @@
         border-radius: 45px 45px 0 0;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: flex-start;
         align-items: center;
-        padding: 20px 15px 0 0;   
+        padding: 20px 0 0 25px;   
         
         p::first-letter {
             text-transform: capitalize;
@@ -61,13 +64,10 @@
     .like{
         font-size: 25px;
 
-        ::before{
-            padding-right: 10px;
-        }
-
         .fa-heart::before{
             transition: linear 0.1s;
-        }
+            padding-left: 65px;
+}
 
         .fa-heart:hover{
 
