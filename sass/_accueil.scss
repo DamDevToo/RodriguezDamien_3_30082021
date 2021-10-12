@@ -251,6 +251,10 @@ $color-tertiary: #99E2D0;
             font-size: 16px;
             margin: 5px 0 0 0;
 
+            p{
+                margin: 0;
+            }
+            
             &::first-letter{
                 text-transform: capitalize;
             }
