@@ -393,6 +393,9 @@ footer li i {
   font-size: 12px;
   text-overflow: ellipsis;
 }
+.menu--list ul li p::first-letter {
+  text-transform: capitalize;
+}
 .menu--list ul li div span {
   font-weight: bold;
   font-size: 15px;
