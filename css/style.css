@@ -342,6 +342,12 @@ footer li i {
 .menu--title h2 p::first-letter {
   text-transform: capitalize;
 }
+@media screen and (min-width: 732px) {
+  .menu--title h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
 .menu--title .like {
   font-size: 25px;
 }

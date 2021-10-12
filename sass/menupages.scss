@@ -57,6 +57,11 @@
         p::first-letter {
             text-transform: capitalize;
         }
+        @media screen and (min-width:732px) {
+    
+            display: flex;
+            justify-content: center;
+        }
     }
 
     .like{
