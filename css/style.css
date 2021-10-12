@@ -326,6 +326,9 @@ footer li i {
   align-items: center;
   padding: 20px 15px 0 0;
 }
+.menu--title h2 p::first-letter {
+  text-transform: capitalize;
+}
 .menu--title .like {
   font-size: 25px;
 }
