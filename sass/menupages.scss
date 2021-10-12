@@ -159,6 +159,8 @@
 
 .command{
     padding: 25px 25px 60px 25px;
+    display: flex;
+    justify-content: center;
 }
 
 .command__btn{
@@ -175,6 +177,8 @@
     background: linear-gradient($color-secondary, $color-primary);
     margin: 0 50px 0 50px;
     font-size: 18px;
+    width: 50%;
+    max-width: 163px;
     
 
    &:hover{

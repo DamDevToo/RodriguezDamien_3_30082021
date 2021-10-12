@@ -416,6 +416,8 @@ footer li i {
 
 .command {
   padding: 25px 25px 60px 25px;
+  display: flex;
+  justify-content: center;
 }
 
 .command__btn {
@@ -432,6 +434,8 @@ footer li i {
   background: linear-gradient(#FF79DA, #9356DC);
   margin: 0 50px 0 50px;
   font-size: 18px;
+  width: 50%;
+  max-width: 163px;
 }
 .command__btn:hover {
   opacity: 0.8;
