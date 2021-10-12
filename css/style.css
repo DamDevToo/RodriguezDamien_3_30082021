@@ -342,7 +342,7 @@ footer li i {
 .menu--title h2 p::first-letter {
   text-transform: capitalize;
 }
-@media screen and (min-width: 732px) {
+@media screen and (min-width: 810px) {
   .menu--title h2 {
     display: flex;
     justify-content: center;
@@ -367,7 +367,7 @@ footer li i {
   width: 100%;
   height: auto;
 }
-@media screen and (min-width: 732px) {
+@media screen and (min-width: 810px) {
   .menu--list {
     display: flex;
     justify-content: center;
@@ -391,17 +391,17 @@ footer li i {
   border: none;
   margin-left: 25px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .menu--list #entrees {
     width: 30%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .menu--list #plats {
     width: 30%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .menu--list #desserts {
     width: 30%;
   }
@@ -424,13 +424,13 @@ footer li i {
   justify-content: space-between;
   margin-bottom: 15px;
 }
-@media screen and (min-width: 732px) {
+@media screen and (min-width: 810px) {
   .menu--list ul li {
     height: 94px;
     border-radius: 25px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1160px) {
   .menu--list ul li {
     height: 70px;
     border-radius: 20px;
@@ -449,7 +449,7 @@ footer li i {
 .menu--list ul li p::first-letter {
   text-transform: capitalize;
 }
-@media screen and (min-width: 732px) {
+@media screen and (min-width: 810px) {
   .menu--list ul li div {
     display: flex;
     flex-direction: column;
