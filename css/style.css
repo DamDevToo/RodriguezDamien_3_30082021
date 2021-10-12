@@ -421,11 +421,13 @@ footer li i {
 @media screen and (min-width: 732px) {
   .menu--list ul li {
     height: 94px;
+    border-radius: 25px;
   }
 }
 @media screen and (min-width: 1024px) {
   .menu--list ul li {
     height: 70px;
+    border-radius: 20px;
   }
 }
 .menu--list ul li h3 {
