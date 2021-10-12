@@ -201,6 +201,9 @@
   font-size: 16px;
   margin: 5px 0 0 0;
 }
+.resto .resto__card h5::first-letter {
+  text-transform: capitalize;
+}
 .resto .resto__card a {
   text-decoration: none;
   font-size: 16px;
