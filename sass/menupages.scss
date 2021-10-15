@@ -232,28 +232,35 @@
 
 .check{
     background-color: $color-tertiary;
-    margin: -16px -80px -16px 16px;
+    margin-right: -260px;
     height: 70px;
     width: 64px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
     transition-duration: 0.5s;
+    opacity: 0;
+    display: none;
 
     &:hover {
-        margin-right: -1rem;
+        opacity: 1;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-right: 0px;
       }
 
     .check_icon {
-        height: 1.6rem;
-        width: 1.6rem;
+        height: 26px;
+        width: 26px;
         background-color: white;
         display:flex;
         align-items:center;
         justify-content:center;
         border-radius: 100px;
-        transform: rotate(180deg);
         transition-duration: 0.5s;
+
+        
+        .fa-check {
+            color: $color-tertiary;
+          }
     
       }
 }
