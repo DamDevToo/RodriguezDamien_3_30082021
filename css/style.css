@@ -424,6 +424,7 @@ footer li i {
   justify-content: space-between;
   margin-bottom: 15px;
   cursor: pointer;
+  text-overflow: ellipsis;
 }
 @media screen and (min-width: 810px) {
   .menu--list ul li {
