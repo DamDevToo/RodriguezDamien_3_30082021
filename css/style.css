@@ -423,6 +423,7 @@ footer li i {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 15px;
+  text-overflow: ellipsis;
 }
 @media screen and (min-width: 810px) {
   .menu--list ul li {
@@ -473,6 +474,17 @@ footer li i {
   transition-duration: 0.5s;
   opacity: 0;
   display: none;
+}
+@media screen and (min-width: 810px) {
+  .check {
+    height: 94px;
+  }
+}
+@media screen and (min-width: 1160px) {
+  .check {
+    height: 70px;
+    border-radius: 20px;
+  }
 }
 .check:hover {
   opacity: 1;
