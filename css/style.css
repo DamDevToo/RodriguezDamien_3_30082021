@@ -465,6 +465,16 @@ footer li i {
   padding: 10px 20px;
 }
 
+.check {
+  background-color: #99E2D0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+
 .command {
   padding: 25px 25px 60px 25px;
   display: flex;
