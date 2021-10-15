@@ -207,19 +207,19 @@
 
             .dishes{
                  height: 100%;
-                 width: 70%;
-            
+                 width: 71%;
+                 text-overflow: ellipsis;
 
                 .name{
                     font-size: 15px;
                     padding: 0 0 0 10px;
                     margin-bottom: 0;
                     height: 33%;
+                    
                 }
 
                 .description{
                     font-size: 12px;
-                    text-overflow: ellipsis;
                     height: 20%;
 
                     p{
@@ -235,7 +235,7 @@
 }
 .container__price{
     height: 100%;
-    width: 15%;
+    width: 10%;
     display: flex;
 
     .price{
