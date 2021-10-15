@@ -467,11 +467,26 @@ footer li i {
 
 .check {
   background-color: #99E2D0;
-  margin: -1rem -5rem -1rem 1rem;
-  width: 4rem;
-  display: none;
+  margin: -16px -80px -16px 16px;
+  height: 70px;
+  width: 64px;
+  display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 0.5s;
+}
+.check:hover {
+  margin-right: -1rem;
+}
+.check .check_icon {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(180deg);
   transition-duration: 0.5s;
 }
 
