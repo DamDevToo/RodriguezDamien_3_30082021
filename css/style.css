@@ -292,6 +292,7 @@ footer li i {
   font-size: 20px;
   color: black;
   margin-right: 45px;
+  cursor: pointer;
 }
 
 .header--menupages {
