@@ -423,7 +423,7 @@ footer li i {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 15px;
-  text-overflow: ellipsis;
+  cursor: pointer;
 }
 @media screen and (min-width: 810px) {
   .menu--list ul li {
@@ -464,47 +464,6 @@ footer li i {
   height: 100%;
   align-items: center;
   padding: 10px 20px;
-}
-
-.check {
-  background-color: #99E2D0;
-  margin-right: -260px;
-  height: 70px;
-  width: 64px;
-  transition-duration: 0.5s;
-  opacity: 0;
-  display: none;
-}
-@media screen and (min-width: 810px) {
-  .check {
-    height: 94px;
-  }
-}
-@media screen and (min-width: 1160px) {
-  .check {
-    height: 70px;
-    border-radius: 20px;
-  }
-}
-.check:hover {
-  opacity: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 0px;
-}
-.check .check_icon {
-  height: 26px;
-  width: 26px;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100px;
-  transition-duration: 0.5s;
-}
-.check .check_icon .fa-check {
-  color: #99E2D0;
 }
 
 .command {

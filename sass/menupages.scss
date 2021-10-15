@@ -172,7 +172,7 @@
             flex-direction: row;
             justify-content: space-between;
             margin-bottom: 15px;
-            text-overflow: ellipsis;
+            cursor: pointer;
 
             @media screen and (min-width:810px) {
     
@@ -230,60 +230,6 @@
     }
     
 }
-
-.check{
-    background-color: $color-tertiary;
-    margin-right: -260px;
-    height: 70px;
-    width: 64px;
-    transition-duration: 0.5s;
-    opacity: 0;
-    display: none;
-
-    @media screen and (min-width:810px) {
-    
-        height: 94px;
-         
-         
-     }
-
-     @media screen and (min-width:1160px) {
-    
-        height: 70px;
-        border-radius: 20px;
-         
-         
-     }
-
-
-    &:hover {
-        opacity: 1;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        margin-right: 0px;
-      }
-
-    .check_icon {
-        height: 26px;
-        width: 26px;
-        background-color: white;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        border-radius: 100px;
-        transition-duration: 0.5s;
-
-        
-        .fa-check {
-            color: $color-tertiary;
-          }
-    
-      }
-}
-
-
-
 
 .command{
     padding: 25px 25px 60px 25px;
