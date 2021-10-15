@@ -430,6 +430,7 @@ footer li i {
 }
 .menu--list ul li:hover .wrap {
   width: 15%;
+  transition-duration: 0.5s;
 }
 .menu--list ul li:hover .fa-check {
   display: flex;
