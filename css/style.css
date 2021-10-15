@@ -423,6 +423,7 @@ footer li i {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 15px;
   cursor: pointer;
   text-overflow: ellipsis;
@@ -440,32 +441,59 @@ footer li i {
   }
 }
 .menu--list ul li .dishes {
+  height: 100%;
+  width: 70%;
+}
+.menu--list ul li .dishes .name {
   font-size: 15px;
   padding: 0 0 0 10px;
   margin-bottom: 0;
+  height: 33%;
 }
-.menu--list ul li .description {
-  margin: 5px 0 10px 10px;
+.menu--list ul li .dishes .description {
   font-size: 12px;
   text-overflow: ellipsis;
+  height: 20%;
 }
-.menu--list ul li .description::first-letter {
+.menu--list ul li .dishes .description p {
+  margin: 0 0 0 10px;
+}
+.menu--list ul li .dishes .description p::first-letter {
   text-transform: capitalize;
 }
-@media screen and (min-width: 810px) {
-  .menu--list ul li div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-.menu--list ul li div span {
-  font-weight: bold;
-  font-size: 15px;
-  display: flex;
+.menu--list .container__price {
   height: 100%;
+  width: 15%;
+  display: flex;
+}
+.menu--list .container__price .price {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 35px 20px 0 0;
+  font-weight: bold;
+}
+.menu--list .wrap {
+  height: 100%;
+  width: 15%;
+  background-color: #99E2D0;
+  display: flex;
   align-items: center;
-  padding: 10px 20px;
+  justify-content: center;
+  border-radius: 0 20px 20px 0;
+}
+.menu--list .wrap:hover {
+  width: 15%;
+  display: flex;
+}
+.menu--list .wrap .wrap__icon {
+  background-color: #ededed;
+  color: #99E2D0;
+  border-radius: 100px;
+}
+.menu--list .wrap .fa-check {
+  padding: 5px 5px;
+  font-size: 15px;
 }
 
 .command {

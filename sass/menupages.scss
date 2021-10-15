@@ -172,9 +172,11 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            align-items: center;
             margin-bottom: 15px;
             cursor: pointer;
             text-overflow: ellipsis;
+
 
             @media screen and (min-width:810px) {
     
@@ -193,45 +195,77 @@
              }
 
             .dishes{
-                font-size: 15px;
-                padding: 0 0 0 10px;
-                margin-bottom: 0;
-            }
+                 height: 100%;
+                 width: 70%;
+            
 
-            .description{
-                margin: 5px 0 10px 10px;
-                font-size: 12px;
-                text-overflow: ellipsis;
-
-                &::first-letter{
-                    text-transform: capitalize;
-                }
-            }
-
-            div{
-
-                @media screen and (min-width:810px) {
-    
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    
-                }
-
-                span{
-                    font-weight: bold;
+                .name{
                     font-size: 15px;
-                    display: flex;
-                    height: 100%;
-                    align-items: center;
-                    padding: 10px 20px;
+                    padding: 0 0 0 10px;
+                    margin-bottom: 0;
+                    height: 33%;
                 }
-            }
+
+                .description{
+                    font-size: 12px;
+                    text-overflow: ellipsis;
+                    height: 20%;
+
+                    p{
+                        margin: 0 0 0 10px;
+
+                    &::first-letter{
+                        text-transform: capitalize;
+                    }
+                }
+            }    
         }
-        
     }
-    
 }
+.container__price{
+    height: 100%;
+    width: 15%;
+    display: flex;
+
+    .price{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        padding: 35px 20px 0 0;
+        font-weight: bold;
+
+        }
+}
+
+.wrap{
+    height: 100%;
+    width: 15%;
+    background-color: $color-tertiary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 20px 20px 0;
+
+    &:hover{
+        width: 15%;
+        display: flex;
+        
+        }
+
+
+    .wrap__icon{
+        background-color: #ededed;
+        color: $color-tertiary;
+        border-radius: 100px;
+              
+        }
+        .fa-check{
+            padding: 5px 5px;
+            font-size: 15px;
+            }
+    }
+}
+  
 
 .command{
     padding: 25px 25px 60px 25px;
