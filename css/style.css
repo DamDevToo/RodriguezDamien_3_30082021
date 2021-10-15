@@ -439,17 +439,17 @@ footer li i {
     border-radius: 20px;
   }
 }
-.menu--list ul li h3 {
+.menu--list ul li .dishes {
   font-size: 15px;
   padding: 0 0 0 10px;
   margin-bottom: 0;
 }
-.menu--list ul li p {
+.menu--list ul li .description {
   margin: 5px 0 10px 10px;
   font-size: 12px;
   text-overflow: ellipsis;
 }
-.menu--list ul li p::first-letter {
+.menu--list ul li .description::first-letter {
   text-transform: capitalize;
 }
 @media screen and (min-width: 810px) {
@@ -498,6 +498,8 @@ footer li i {
 }
 
 html, body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: "Roboto";
