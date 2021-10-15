@@ -469,7 +469,7 @@ footer li i {
   background-color: #99E2D0;
   margin: -1rem -5rem -1rem 1rem;
   width: 4rem;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   transition-duration: 0.5s;
