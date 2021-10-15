@@ -428,6 +428,12 @@ footer li i {
   cursor: pointer;
   text-overflow: ellipsis;
 }
+.menu--list ul li:hover .wrap {
+  width: 15%;
+}
+.menu--list ul li:hover .fa-check {
+  display: flex;
+}
 @media screen and (min-width: 810px) {
   .menu--list ul li {
     height: 94px;
@@ -470,30 +476,29 @@ footer li i {
   height: 100%;
   width: 100%;
   display: flex;
-  padding: 35px 20px 0 0;
+  padding: 35px 0 0 0;
   font-weight: bold;
 }
 .menu--list .wrap {
   height: 100%;
-  width: 15%;
+  width: 0%;
   background-color: #99E2D0;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 0 20px 20px 0;
 }
-.menu--list .wrap:hover {
-  width: 15%;
-  display: flex;
-}
 .menu--list .wrap .wrap__icon {
   background-color: #ededed;
   color: #99E2D0;
   border-radius: 100px;
+  display: flex;
 }
-.menu--list .wrap .fa-check {
+
+.fa-check {
   padding: 5px 5px;
   font-size: 15px;
+  display: none;
 }
 
 .command {

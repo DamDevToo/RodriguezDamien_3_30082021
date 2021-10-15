@@ -177,6 +177,16 @@
             cursor: pointer;
             text-overflow: ellipsis;
 
+            &:hover{
+                .wrap{
+                    width: 15%;
+                }
+
+                .fa-check{
+                    display: flex;
+                }
+            }
+
 
             @media screen and (min-width:810px) {
     
@@ -231,7 +241,7 @@
         height: 100%;
         width: 100%;
         display: flex;
-        padding: 35px 20px 0 0;
+        padding: 35px 0 0 0;
         font-weight: bold;
 
         }
@@ -239,32 +249,31 @@
 
 .wrap{
     height: 100%;
-    width: 15%;
+    width: 0%;
     background-color: $color-tertiary;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0 20px 20px 0;
 
-    &:hover{
-        width: 15%;
-        display: flex;
-        
-        }
+   
 
 
     .wrap__icon{
         background-color: #ededed;
         color: $color-tertiary;
         border-radius: 100px;
-              
+        display: flex;
+
+
         }
-        .fa-check{
-            padding: 5px 5px;
-            font-size: 15px;
-            }
     }
 }
+.fa-check{
+    padding: 5px 5px;
+    font-size: 15px;
+    display: none;
+    }
   
 
 .command{
